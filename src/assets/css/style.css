@@ -1,0 +1,63 @@
+body {
+  background: white;
+  font-family: Helvetica, sans-serif; }
+
+.header {
+  background: #009bdb;
+  display: block;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: solid 1px #d5d5d5; }
+  .header .material-icons {
+    display: block;
+    text-align: left;
+    font-size: 1.6em; }
+
+.mat-tab-labels {
+  background: #009bdb; }
+  .mat-tab-labels .mat-tab-label {
+    width: 50%;
+    color: #fff;
+    opacity: 10; }
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #fff !important; }
+
+footer {
+  text-align: center; }
+
+.mat-form-field {
+  width: 100% !important; }
+
+.search {
+  width: 100%; }
+  .search .mat-input-element {
+    margin-top: 0.5rem; }
+  .search .material-icons {
+    font-size: 18px;
+    padding-right: 3px; }
+  .search .mat-form-field-wrapper {
+    padding-bottom: 0.5em; }
+  .search .mat-form-field-underline {
+    display: none; }
+
+.portal-login {
+  padding: 0;
+  list-style: none; }
+  .portal-login li {
+    border-top: solid 1px #999; }
+    .portal-login li a {
+      text-decoration: none;
+      display: block; }
+      .portal-login li a img {
+        border-right: solid 1px #999; }
+  .portal-login li:last-child {
+    border-bottom: solid 1px #999; }
+  .portal-login h5 {
+    display: inline-block;
+    padding-left: 20px;
+    color: #333; }
+
+/*# sourceMappingURL=style.css.map */
